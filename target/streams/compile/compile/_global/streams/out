@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/workspaces/id2203-kompics-exercises/src/main/scala/se/kth/edx/id2203/templates/EPFDTemplate.scala:96:33: method - in trait SetOps is deprecated (since 2.13.0): Consider requiring an immutable Set or fall back to Set.diff[0m
+[0m[[0m[33mwarn[0m] [0m[0m          suspected = suspected - p;[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/workspaces/id2203-kompics-exercises/src/main/scala/se/kth/edx/id2203/templates/EPFDTemplate.scala:113:23: method + in trait SetOps is deprecated (since 2.13.0): Consider requiring an immutable Set or fall back to Set.union[0m
+[0m[[0m[33mwarn[0m] [0m[0m        alive = alive + src[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

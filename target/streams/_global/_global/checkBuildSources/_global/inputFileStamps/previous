@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/workspaces/id2203-kompics-exercises/build.sbt","03d41602994a17b5bc9136941b3e2a864c37ff4f"],["/workspaces/id2203-kompics-exercises/project/plugins.sbt","344eacaccc02f89b52f80967eda12092ce51bdb6"]],"lastModifiedTimes":[]}]
