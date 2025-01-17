@@ -14,7 +14,7 @@ Before starting you should add the Remote - Containers extension to your VSCode.
 If it has been successfully installed, you should see a blue icon on the bottom left corner of your VSCode window (the colour might be different if you are using a custom theme).
 ![remote-container-icon-vscode](https://github.com/user-attachments/assets/a3a889b4-f791-442e-b6fc-f206fd387e06)
 ## Opening the project in a container
-First, you must clone our template repository. You can do this by running the following command in your terminal:
+First, you must clone our template repository. You can do this by running the following command in your terminal or clonning a forked repository from your own account:
 ```bash
 git clone https://github.com/datasys-lab/KTH-ID2203-assignments.git
 ```
