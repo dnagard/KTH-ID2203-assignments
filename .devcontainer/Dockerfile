@@ -26,5 +26,10 @@ COPY .zshrc /root/.zshrc
 #use zsh as main shell
 RUN chsh -s /usr/bin/zsh root
 
-# install scala
-RUN curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup -y && rm -f cs
+# install scala -> uncomment one of the following lines
+
+# x86_64
+# RUN curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup -y && rm -f cs
+
+# For ARM64
+# RUN curl -fL https://github.com/VirtusLab/coursier-m1/releases/latest/download/cs-aarch64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup -y && rm -f cs

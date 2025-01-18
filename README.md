@@ -18,7 +18,9 @@ First, you must clone our template repository. You can do this by running the fo
 ```bash
 git clone https://github.com/datasys-lab/KTH-ID2203-assignments.git
 ```
-After cloning the repository, you should open the project in VSCode. At this moment a notification should appear in the bottom right corner of your screen asking you to reopen the project in a container. Click on the `Reopen in Container` button.
+After cloning the repository go to `.devcontainer/Dockerfile` and uncomment one of the *coursier* installations at the bottom of the file depending on which architecture you are running.
+
+Now you should open the project in VSCode. At this moment a notification should appear in the bottom right corner of your screen asking you to reopen the project in a container. Click on the `Reopen in Container` button.
 ![reopen-in-container-vscode](https://github.com/user-attachments/assets/e1762a5b-7366-4e77-aff4-bc3ecb0a5d5f)
 If the notification does not appear, you can open the command palette by pressing `Ctrl+Shift+P` and typing `Dev Container: Reopen in Container` or clicking on the left bottom icon and selecting `Remote-Containers: Reopen in Container`. This will initiate the process of building the container and installing all the dependencies, as it is the first time the container is being built, it might take a while (around 2 minutes), but do not worry, the next time you open the project it will be instantaneous.
 
